@@ -1,0 +1,8 @@
+
+package com.cos.demo.repository;
+
+public class UserRepository {
+	
+	public User findById(int id);
+	public List<User> findAll;
+}

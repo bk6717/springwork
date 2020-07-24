@@ -1,0 +1,16 @@
+package com.cos.blog.model;
+
+import lombok.Builder;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@date
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Account {
+private int id;
+private String username;
+private String accountNumber;
+private int money;
+}

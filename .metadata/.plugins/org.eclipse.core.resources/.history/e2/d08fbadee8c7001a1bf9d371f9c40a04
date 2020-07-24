@@ -1,0 +1,24 @@
+package com.cos.blog.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.cos.blog.model.Account;
+
+@Service
+public class AccountService {
+	
+	public void 송금(Account a1, Account a2, int acceptMoney) {
+		
+	}
+	
+	public void 인출(Account a, int acceptMoney) {
+		
+	}
+	
+	public List<Account> 계좌정보보기(){
+		
+		return null;
+	}
+}

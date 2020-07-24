@@ -1,0 +1,16 @@
+let index = {	
+	init: function(){
+		console.log(this);
+		$("#btn-save").on("click", function(){
+			alert("btn-save 클릭됨");
+			_this.save();
+		});
+	},
+	
+	save : function(){
+		alert("btn-save 로직 실행");
+	}
+
+}
+
+index.init();

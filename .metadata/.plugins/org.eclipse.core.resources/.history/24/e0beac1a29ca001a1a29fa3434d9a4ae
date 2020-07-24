@@ -1,0 +1,10 @@
+let index = {
+		
+	init: function(){
+		$("#btn-save").on("click", function(){
+			alert("btn-save 클릭됨");
+		});
+	}
+}
+
+index.init();

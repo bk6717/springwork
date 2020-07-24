@@ -1,0 +1,20 @@
+package com.cos.blog.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+@Controller
+public class PostController {
+
+	@GetMapping("/post/saveForm")
+	public String postForm() {
+		return "post/saveForm";
+	}
+	
+	@PostMapping("/post")
+	public String postProc(@RequestBody Post post){
+		
+	}
+}
