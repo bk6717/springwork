@@ -2,7 +2,17 @@ package com.cos.opggex.controller.dto;
 
 import java.util.List;
 
+
 import com.cos.opggex.model.MatchSummonerModel;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 
 public class DetailDto {
 	//entryModel
@@ -15,6 +25,9 @@ public class DetailDto {
 	//MatchSummonerModel
 	List<MatchSummonerDto> matchSummonerDtos; 
 	
+	@Data
+	@AllArgsConstructor
+	@NoArgsConstructor
 	public class MatchTeamDto {
 		
 		//MachteamModel
@@ -24,6 +37,9 @@ public class DetailDto {
 		private int dragonkils;
 	}
 	
+	@Data
+	@AllArgsConstructor
+	@NoArgsConstructor
 	public class MatchSummonerDto{
 		private String summonerName;
 		private int participantId;

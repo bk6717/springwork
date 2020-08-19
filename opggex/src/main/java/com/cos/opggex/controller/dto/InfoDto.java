@@ -2,7 +2,21 @@ package com.cos.opggex.controller.dto;
 
 import java.util.List;
 
+import com.cos.opggex.controller.dto.DetailDto.DetailDtoBuilder;
+import com.cos.opggex.controller.dto.DetailDto.MatchSummonerDto;
+import com.cos.opggex.controller.dto.DetailDto.MatchTeamDto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class InfoDto {
+	
+	private int type;
 	// SummonoerModel
 	private String name;
 	private int summonoerLevel;
@@ -18,6 +32,9 @@ public class InfoDto {
 	
 	private List<MatchDto> matchDtos;
 	
+	@Data
+	@AllArgsConstructor
+	@NoArgsConstructor
 	public class MatchDto {
 		
 		//MatchCommonModel
