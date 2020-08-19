@@ -13571,3 +13571,15 @@ java.lang.IllegalArgumentException:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:16:31.180
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UyqOoeTa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:16:31.183
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UyqOoeTa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:16:31.185
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:16:31.188
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UyqOoeTa => OK
