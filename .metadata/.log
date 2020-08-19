@@ -13857,3 +13857,183 @@ java.net.UnknownHostException: jope.ow2.org
 
 !ENTRY org.eclipse.ui 2 2 2020-08-19 20:32:10.446
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:51.978
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CZpveler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:51.988
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CZpveler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:51.991
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:51.993
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CZpveler => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:53.371
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:53.372
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6338a0ec[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:53.373
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:55.849
+!MESSAGE Boot LS startup time from start to initialized: 2473ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:55.907
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iCyMQDCCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.118
+!MESSAGE subscribing to classpath changes: sts4.classpath.iCyMQDCC isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.119
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.120
+!MESSAGE subsribers = {sts4.classpath.iCyMQDCC=Send Classpath Notifications(1254)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.121
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.121
+!MESSAGE project opggex ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.122
+!MESSAGE project Springboot-Security-JWT-Easy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.123
+!MESSAGE Preparing classpath changed notification opggex
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.124
+!MESSAGE project blog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.125
+!MESSAGE project blog SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.126
+!MESSAGE project blog2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.128
+!MESSAGE project crawnewsapp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.129
+!MESSAGE project crawnewsapp SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.130
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.131
+!MESSAGE project demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.132
+!MESSAGE project google ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.134
+!MESSAGE project google SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.135
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.135
+!MESSAGE project jwtEx01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.137
+!MESSAGE project jwtEx01 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.138
+!MESSAGE project jwtStudy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.139
+!MESSAGE project jwtStudy SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.140
+!MESSAGE project livere ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.141
+!MESSAGE project livere SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.142
+!MESSAGE project review ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.143
+!MESSAGE buffering callback sts4.classpath.iCyMQDCC opggex false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.143
+!MESSAGE project review SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.144
+!MESSAGE Preparing classpath changed notification Springboot-Security-JWT-Easy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.145
+!MESSAGE project securityOAuthEx01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.147
+!MESSAGE project securityOAuthEx01 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.148
+!MESSAGE project securityex01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.149
+!MESSAGE project securityex01 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.151
+!MESSAGE project springStudy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.152
+!MESSAGE project springStudy SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.153
+!MESSAGE project springStudy-1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.155
+!MESSAGE project springStudy-1 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.156
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.156
+!MESSAGE project validex01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.157
+!MESSAGE project validex01 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.158
+!MESSAGE project viewresolver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.159
+!MESSAGE project viewresolver SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.161
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.162
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iCyMQDCC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.164
+!MESSAGE buffering callback sts4.classpath.iCyMQDCC Springboot-Security-JWT-Easy false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.166
+!MESSAGE Preparing classpath changed notification blog2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.167
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.174
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.179
+!MESSAGE buffering callback sts4.classpath.iCyMQDCC blog2 false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.180
+!MESSAGE executing callback sts4.classpath.iCyMQDCC 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-19 20:38:56.220
+!MESSAGE executing callback sts4.classpath.iCyMQDCC SUCCESS [done]
