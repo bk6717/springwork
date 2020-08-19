@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0/EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cos.springStudy.repository.AccountRepository">
+	<!-- 함수명과 같에 만들어야한다. -->
+	<select id = "findAll" resultType="com.cos.springStudy.model.Account">
+		SELECT * FROM  account
+	</select>
+	
+	<update id = "update"> 
+		Update account SET money = #{money} WHERE accountNumber = #{accountNumber}
+	</update>
+	
+	<select id = "findByAccountNumber" resultType="com.cos.springStudy.model.Account">
+		SELECT * FROM account WHERE accountNumber = #{accountNumber}
+	</select>
+</mapper>

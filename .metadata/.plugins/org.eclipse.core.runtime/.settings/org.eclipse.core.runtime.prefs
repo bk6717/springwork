@@ -1,2 +1,2 @@
-content-types/org.eclipse.wst.html.core.htmlsource/file-names=index.mustache,modelData.mustache,modelArray.mustache,header.mustache,footer.mustache,layout.mustache
+content-types/org.eclipse.wst.html.core.htmlsource/file-names=index.mustache,modelData.mustache,modelArray.mustache,header.mustache,footer.mustache,layout.mustache,login.mustache,join.mustache,product.mustache,user.mustache,detail.mustache
 eclipse.preferences.version=1
